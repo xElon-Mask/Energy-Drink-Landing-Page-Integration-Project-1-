@@ -26,6 +26,13 @@ section {
   height: 100%;
   background-size: cover;
   background-position: right;
+  position: relative;
+}
+
+.left .bg img {
+  position: absolute;
+  top: 15%;
+  right: 33%;
 }
 
 .right {
