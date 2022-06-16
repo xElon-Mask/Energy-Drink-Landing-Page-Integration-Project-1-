@@ -4,6 +4,7 @@
   list-style: none;
   font-family: "Russo One";
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -95,4 +96,28 @@ section {
   font-size: 90px;
   text-transform: uppercase;
   font-weight: 100;
+  margin-bottom: 25px;
+}
+
+.box-up .btn-box button {
+  width: 210px;
+  height: 70px;
+  border: 0;
+  border-radius: 50px;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: azure;
+  letter-spacing: 2px;
+}
+
+.box-up .btn-box .detail button {
+  background: linear-gradient(to left, #7125fe, #9e11f9);
+  box-shadow: 0px 0px 10px #9e11f9;
+  margin-right: 30px;
+}
+
+.box-up .btn-box .buy button {
+  background: transparent;
+  border: 2px solid #9e11f9;
+  width: 230px !important;
 }
