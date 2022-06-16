@@ -70,4 +70,29 @@ section {
 .right {
   width: 55%;
   height: 100%;
+  padding-left: 80px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-up {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-up .btn-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-up h1 {
+  color: azure;
+  font-size: 90px;
+  text-transform: uppercase;
+  font-weight: 100;
 }
