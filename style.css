@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Russo One";
+}
+
+body {
+  background-color: #263556;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 45%;
+  height: 100%;
+  background-color: red;
+}
+
+.right {
+  width: 55%;
+  height: 100%;
+  background-color: blue;
+}
