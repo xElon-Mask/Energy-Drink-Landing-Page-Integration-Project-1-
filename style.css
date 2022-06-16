@@ -19,11 +19,16 @@ section {
 .left {
   width: 45%;
   height: 100%;
-  background-color: red;
+}
+
+.left .bg {
+  background-image: url(img/bg-left.png);
+  height: 100%;
+  background-size: cover;
+  background-position: right;
 }
 
 .right {
   width: 55%;
   height: 100%;
-  background-color: blue;
 }
