@@ -169,3 +169,25 @@ section {
   font-size: 12px;
   font-weight: 400;
 }
+
+.box-down {
+  position: absolute;
+  bottom: 80px;
+}
+
+.box-down ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-down ul li {
+  margin-right: 40px;
+}
+
+.box-down ul a {
+  color: #a3b6e1;
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
