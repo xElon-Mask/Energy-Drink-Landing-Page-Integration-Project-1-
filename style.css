@@ -81,6 +81,13 @@ section {
   justify-content: center;
 }
 
+.bg-right img {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  z-index: 999;
+}
+
 .box-up {
   display: flex;
   flex-direction: column;
