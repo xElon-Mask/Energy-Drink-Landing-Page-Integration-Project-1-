@@ -121,3 +121,11 @@ section {
   border: 2px solid #9e11f9;
   width: 230px !important;
 }
+
+.trait {
+  width: 500px;
+  height: 2px;
+  background: linear-gradient(to right, #445682, #263556);
+  border-radius: 50px;
+  margin: 50px 0;
+}
