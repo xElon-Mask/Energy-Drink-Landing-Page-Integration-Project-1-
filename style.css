@@ -127,5 +127,38 @@ section {
   height: 2px;
   background: linear-gradient(to right, #445682, #263556);
   border-radius: 50px;
-  margin: 50px 0;
+  margin: 45px 0;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 220px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon img {
+  width: 50px;
+  margin: 15px;
+}
+
+.icon .paragraphe h2 {
+  color: azure;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.icon .paragraphe p {
+  color: #a3b6e1;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: 400;
 }
